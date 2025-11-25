@@ -47,23 +47,24 @@ export const UsageAreas = () => {
       <div className="absolute -top-40 -left-40 w-96 h-96 bg-orange-200 rounded-full blur-[128px] opacity-40 pointer-events-none" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-200 rounded-full blur-[128px] opacity-40 pointer-events-none" />
 
-      <div className="container mx-auto px-6 relative z-10 py-16">
-        {/* Header Section - Full Width */}
+      <div className="container mx-auto px-6 relative z-10 py-6">
+        {/* Header Section - Full Width Horizontal Layout */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mb-12 max-w-xl"
+          className="mb-12 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6"
         >
-          <div className="inline-block px-3 py-1 mb-4 border border-zinc-200 rounded-full bg-white text-zinc-500 text-xs font-bold tracking-widest uppercase shadow-sm">
-            Kullanım Alanları
+          <div className="flex-1">
+            <div className="inline-block px-3 py-1 mb-4 border border-zinc-200 rounded-full bg-white text-zinc-500 text-xs font-bold tracking-widest uppercase shadow-sm">
+              Kullanım Alanları
+            </div>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-zinc-900 leading-tight">
+              Geniş Kullanım <span className="text-orange-600">Alanları</span>
+            </h2>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-zinc-900 mb-6 leading-tight">
-            Geniş Kullanım <br/>
-            <span className="text-orange-600">Alanları</span>
-          </h2>
-          <p className="text-zinc-600 text-lg leading-relaxed">
-            Sel bariyerlerimiz farklı yapı tiplerine ve ihtiyaçlara uygun olarak tasarlanmıştır.
+          <p className="text-zinc-600 text-lg leading-relaxed lg:max-w-md lg:text-right">
+            Sel bariyerlerimiz farklı yapı tiplerine ve ihtiyaçlara uygun olarak tasarlanmıştır. Her türlü giriş ve açıklık için güvenilir çözümler sunuyoruz.
           </p>
         </motion.div>
 

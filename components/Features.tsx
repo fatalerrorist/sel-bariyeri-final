@@ -6,7 +6,7 @@ export const Features = () => {
   return (
     <section
       id="urunumuz"
-      className="min-h-screen w-full bg-zinc-50/50 relative overflow-hidden flex flex-col items-center justify-center py-20 md:py-24"
+      className="min-h-screen w-full bg-zinc-50/50 relative overflow-hidden flex flex-col items-center justify-center py-6 md:py-6"
     >
       {/* Decorative Background Elements */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-orange-100/40 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
@@ -60,7 +60,7 @@ export const Features = () => {
                 Üstün Dayanıklılık
               </h3>
               <p className="text-lg text-zinc-600 max-w-md leading-relaxed">
-                Havacılık sınıfı alüminyum alaşım paneller, tonlarca su basıncına ve darbelere karşı maksimum direnç sağlar.
+                340 Litreye kadar su baskısına dayanıklıdır. Şiddetli sellere karşı tam dayanıklılık.
               </p>
             </div>
 
@@ -153,7 +153,7 @@ export const Features = () => {
               </div>
               <h3 className="text-2xl font-bold text-zinc-900 mb-3 group-hover:text-blue-700 transition-colors">%100 Sızdırmazlık</h3>
               <p className="text-zinc-600 text-sm leading-relaxed mb-8">
-                Patentli EPDM conta teknolojisi, suyun en küçük boşluktan bile geçmesine izin vermez.
+                Büyük kalıplar ile tek parça halinde üretilen bariyerler, aynı zamanda gelen su akışını en iyi şekilde yönlendirir.
               </p>
             </div>
 
